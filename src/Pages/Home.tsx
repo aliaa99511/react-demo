@@ -1,47 +1,43 @@
-import React, { Component } from 'react'
-import FullScreen from '../Homefiles/FullScreen'
-import Show from '../Homefiles/Show'
-import Carousel from '../Homefiles/Carousel'
-import Bublich from '../Homefiles/Bublich'
-import Offer from '../Homefiles/Offer'
-import Slides from '../Homefiles/Slides'
-import Works from '../Homefiles/Works'
-import Hoverlay from '../Homefiles/Hoverlay'
-import Delicious from '../Homefiles/Delicious'
-import Food from '../Homefiles/Food'
-import Storiees from '../Homefiles/Storiees';
-import Recipe from '../Homefiles/Recipe';
-import Courses from '../Homefiles/Courses'
-import Boorder from '../Homefiles/Boorder'
-import Build from '../Homefiles/Build'
-import Agency from '../Homefiles/Agency'
-import Price from '../Homefiles/Price'
+import Agency from "../Component/Agency"
+import FullScreen from "../Component/FullScreen"
+import Hoverlay from "../Component/Hoverlay"
+import Show from "../Component/Show"
+import Slides from "../Component/Slides"
+import Works from "../Component/Works"
+import Bublich from "../Component/Bublich"
+import Offer from "../Component/Offer"
+import Delicious from "../Component/Delicious"
+import Carousel from "../Component/Carousel"
+import Food from "../Component/Food"
+import Storiees from "../Component/Storiees"
+import Recipe from "../Component/Recipe"
+import Courses from "../Component/Courses"
+import Price from "../Component/Price"
+import Boorder from "../Component/Boorder"
+import Build from "../Component/Build"
 
-export class Home extends Component {
-    render() {
-        return (
-            <div>
-              <FullScreen /> 
-              <Show />
-              <Agency />
-              <Slides/>
-              <Works />
-              <Hoverlay/>
-              <Carousel />
-              <Bublich />
-              <Offer/>
-              <Delicious />
-              <Food />
-              <Storiees />
-              <Recipe />
-              <Courses/>
-              <Price />
-              <Boorder/>
-              <Build/>
-            </div>
-            
-        )
-    }
+const Home = () => {
+    return (
+        <div>
+            <FullScreen />
+            <Show />
+            <Agency />
+            <Slides />
+            <Works />
+            <Hoverlay />
+            <Carousel />
+            <Bublich />
+            <Offer />
+            <Delicious />
+            <Food />
+            <Storiees />
+            <Recipe />
+            <Courses />
+            <Price />
+            <Boorder />
+            <Build />
+        </div>
+    )
 }
 
 export default Home

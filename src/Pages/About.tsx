@@ -1,11 +1,11 @@
-import Cardes from '../Component/Aboutfiles/Cardes';
-import Food from '../Component/Aboutfiles/Food';
-import FullScreen2 from '../Component/Aboutfiles/FullScreen2';
-import Hoverlay from '../Component/Aboutfiles/Hoverlay';
-import Price from '../Component/Aboutfiles/Price';
-import Shadow from '../Component/Aboutfiles/Shadow';
-import Shapes from '../Component/Aboutfiles/Shapes';
-import Works from '../Component/Aboutfiles/Works';
+import Cardes from '../Component/Cardes';
+import Food from '../Component/Food';
+import FullScreen2 from '../Component/FullScreen2';
+import Hoverlay from '../Component/Hoverlay';
+import Price from '../Component/Price';
+import Shadow from '../Component/Shadow';
+import Shapes from '../Component/Shapes';
+import Works from '../Component/Works';
 
 const About = () => {
     return (

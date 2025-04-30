@@ -1,18 +1,15 @@
-import React, { Component } from 'react'
-import FullScreen5 from '../Servicesfiles/FullScreen5'
-import List from '../Servicesfiles/List'
-import Cart from '../Servicesfiles/Cart'
+import FullScreen5 from "../Component/FullScreen5"
+import Cart from "../Component/Cart"
+import List from "../Component/List"
 
-export class Services extends Component {
-    render() {
-        return (
-            <div>
-               <FullScreen5 /> 
-               <List />
-               <Cart />
-            </div>
-        )
-    }
+const Services = () => {
+    return (
+        <div>
+            <FullScreen5 />
+            <List />
+            <Cart />
+        </div>
+    )
 }
 
 export default Services

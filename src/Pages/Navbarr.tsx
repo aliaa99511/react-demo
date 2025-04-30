@@ -1,19 +1,8 @@
-import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  Container,
-} from 'reactstrap';
-
+import { useState } from 'react';
+import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,Container} from 'reactstrap';
 import '../Style/Navbarr.css'
-import {Link} from "react-router-dom";
 
-const Navbarr = (props) => {
+const Navbarr = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -22,7 +11,6 @@ const Navbarr = (props) => {
             <div>
                 <Container>
                     <Navbar light expand="md">
-
                         <NavbarBrand href="/">Logo</NavbarBrand>
 
                         <NavbarToggler onClick={toggle} />

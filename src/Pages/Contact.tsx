@@ -1,16 +1,13 @@
-import React, { Component } from 'react'
-import FullScreen6 from '../Contactfiles/FullScreen6'
-import Forms from '../Contactfiles/Forms'
+import Forms from "../Component/Forms"
+import FullScreen6 from "../Component/FullScreen6"
 
-class Contact extends Component {
-render() {
+const Contact = () => {
     return (
     <div>
         <FullScreen6/>
         <Forms />
     </div>
     )
- }
 }
 
 export default Contact

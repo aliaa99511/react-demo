@@ -1,20 +1,17 @@
-import React, { Component } from 'react'
-import FullScreen4 from '../Testimonialfiles/FullScreen4'
-import Build from '../Testimonialfiles/Build'
-import Agency from '../Testimonialfiles/Agency'
-import Bublich from '../Testimonialfiles/Bublich'
+import Agency from "../Component/Agency"
+import Bublich from "../Component/Bublich"
+import Build from "../Component/Build"
+import FullScreen4 from "../Component/FullScreen4"
 
-export class Testimonials extends Component {
-    render() {
-        return (
-            <div>
-                <FullScreen4/>
-                <Build/>
-                <Agency />
-                <Bublich />
-            </div>
-        )
-    }
+const Testimonials = () => {
+    return (
+        <div>
+            <FullScreen4 />
+            <Build />
+            <Agency />
+            <Bublich />
+        </div>
+    )
 }
 
 export default Testimonials

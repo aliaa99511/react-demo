@@ -1,21 +1,21 @@
-import Boorder from "../Component/Blogfiles/Boorder";
-import Courses from "../Component/Blogfiles/Courses";
-import Delicious from "../Component/Blogfiles/Delicious";
-import FullScreen3 from "../Component/Blogfiles/FullScreen3";
-import Recipe from "../Component/Blogfiles/Recipe";
-import Storiees from "../Component/Blogfiles/Storiees";
+import Boorder from "../Component/Boorder";
+import Courses from "../Component/Courses";
+import Delicious from "../Component/Delicious";
+import FullScreen3 from "../Component/FullScreen3";
+import Recipe from "../Component/Recipe";
+import Storiees from "../Component/Storiees";
 
 const Blog = () => {
-    return (
-            <div>
-               <FullScreen3 />
-              <Delicious />
-              <Storiees />
-              <Recipe />
-              <Courses/>
-              <Boorder/>
-            </div>
-    );
+  return (
+    <div>
+      <FullScreen3 />
+      <Delicious />
+      <Storiees />
+      <Recipe />
+      <Courses />
+      <Boorder />
+    </div>
+  );
 };
 
 export default Blog
