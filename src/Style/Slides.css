@@ -1,0 +1,79 @@
+
+.back1 {
+    background-image: url(/images/bg_4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 361px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.back1 h6 {
+    font-size: 20px;
+}
+.back1 h1 {
+    font-size: 48px;
+}
+.back1 .ceen{
+    background-color: #808080c9;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide .sli{
+    
+}
+.slide .sli .butt {
+    width: 40px;
+    height: 40px;
+    background-color: #17a2b8;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-top: -17px;
+
+}
+
+.slide {
+    margin-bottom: 104px;
+    margin-top: -76px;
+}
+
+.slide .slick-dots {
+}
+
+.slide .sli {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+    border: 1px solid #80808033;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.slide .medi {
+    margin-left: 10px;
+}
+
+.slide .medi .hido{font-size: 20px;}
+
+.slide .medi .para {font-size: 15px;font-weight: 400;}
+
+.slide .medi .img{width: 70px;height: 70px;border-radius: 50%;margin-right: 10px;}
+
+.slide .sli .local{
+    padding: 10px;
+} 
+
+.slide button.slick-arrow.slick-prev {
+    opacity: 0;
+}
+
+.slide button.slick-arrow.slick-next {
+    opacity: 0;
+}
+
+
+

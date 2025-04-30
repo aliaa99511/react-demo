@@ -1,0 +1,171 @@
+
+.heeed {
+    text-align: center;
+    margin-top: 106px;
+}
+
+.testimo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(350px,1fr));
+    background-color: #80808014;
+    margin-top: -82px;
+    padding-top: 168px;
+    padding-bottom: 117px;
+
+}
+.testimo .card {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 73px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #80808070;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.testimo .card .content{
+    position: relative;
+    z-index: 2;
+}
+
+.testimo .card .layer{
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #168c9f;
+    height: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+.testimo .card:hover .layer{
+    top: 0;
+}
+.testimo .card h5{
+    color: #6c757d
+ }
+.testimo .card:hover h5{
+    color: white;
+}
+
+.testimo .card .content .text{
+    color: #6c757d
+ }
+.testimo .card:hover .text{
+    color: white;
+}
+.testimo .card Button{
+margin-top: 30px;
+}
+.testimo .card:hover Button{
+    color: white;
+}
+.testimo .card:hover .btn-outline-info {
+    color: white;
+}
+
+
+.testimo .card:hover .price{
+    border: 2px solid;
+    color: white;
+}
+.content .price {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #168c9f;
+    border-radius: 50%;
+    margin-left: 48px;
+    margin-bottom: 31px;
+    margin-top: 29px;
+}
+.content .price .lolo {
+    font-size: 45px;
+    padding-top: 12px;
+}
+.content .price h6 {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/*.poo {
+    text-align: center;
+    background-color: #80808014;
+    margin-top: -84px;
+}
+
+
+
+
+
+
+
+.poo .mapo{
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    width: 350px;
+    height: 488px;
+}
+.poo .layer{
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #168c9f;
+    z-index: 1;
+    transition: 0.4s;
+}
+.ittem:hover{
+    background-color: #168c9f;
+
+}
+
+.ittem:hover h5{
+color: white;
+}
+.poo .ittem {
+    border: 1px solid gainsboro;
+    padding: 64px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+.poo .lili {
+    margin-bottom: 68px;
+}
+
+.ittem h5 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.ittem .price {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #168c9f;
+    border-radius: 50%;
+    margin-left: 48px;
+    margin-bottom: 31px;
+    margin-top: 29px;
+}
+.ittem .price .lolo {
+    font-size: 45px;
+    padding-top: 12px;
+}
+.ittem .price h6 {
+    font-size: 14px;
+}*/

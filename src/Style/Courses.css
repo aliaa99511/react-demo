@@ -1,0 +1,49 @@
+
+.course .card-deck .card {
+    margin-bottom: 30px!important;
+}
+.course h6 {
+    color: #168c9f;
+    text-align: center;
+    margin-top: 181px;
+    margin-bottom: 14px;
+}
+.course h1 {
+    text-align: center;
+    font-size: 53px;
+    font-weight: 500;
+    margin-bottom: 77px;
+}
+.course .card-title {
+    color: #065ab4;
+    font-size: 30px;
+    margin-bottom: 36px;
+    margin-top: 19px;
+}
+.course .stan{
+    display: flex;
+}
+.course .textt {
+    display: flex;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+.course .textt div:first-child {
+    margin-right: 15px;
+}
+.course .stan p,.textt .fre {
+    margin-left: auto;
+}
+.course .textt i {
+    margin-right: 4px;
+}
+
+.course .stan .icon{
+    color: #FFD700;
+}
+.course .flexbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+}

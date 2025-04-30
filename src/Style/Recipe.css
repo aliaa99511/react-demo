@@ -1,0 +1,44 @@
+.recip {
+    margin-top: 196px;
+}
+.recip .img-fluid {
+    max-width: 112%;
+}
+.recip .row{
+    margin-bottom: 20px;
+}
+.recip .mg {
+    height: 361px;
+
+}
+.recip .coonte {
+    background-color: #80808030;
+    padding: 21px;
+    height: 361px;
+}
+.recip .coonte h5 {
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    line-height: 28px;
+}
+.recip .coonte p {
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.recip .coonte .icnn1 {
+    margin-bottom: 16px;
+    margin-top: 28px;
+}
+.recip .coonte .icnn1 span{
+
+}
+.recip .coonte .icnn2 {
+    color: #17a2b8;
+    margin-bottom: 16px;
+}
+.recip .coonte .icnn2 span {
+    margin-right: 4px;
+    font-weight: 500;
+}

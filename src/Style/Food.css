@@ -1,0 +1,31 @@
+
+.smmal {color: #17a2b8;margin-top: 118px;margin-bottom: 19px;}
+
+.biig {margin-bottom: 83px;font-size: 56px;}
+
+.iitem .imgo {
+    border-radius: 5px;
+}
+.iitem {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+
+.iitem .under {
+    position: absolute;
+    z-index: 2;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 26px;
+    left: 11%;
+    top: 84%;
+}
+.iitem .under:hover{transition: 0.5s;background-color: #17a2b8;cursor: pointer;color: white;}
+
+.iitem .under:hover small{color: white;}
+
+.iitem .under small{color: #6c757d;transition: 0.5s;}
+
+.iitem .under h5{margin-top: 8px;}

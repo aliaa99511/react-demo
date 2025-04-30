@@ -1,0 +1,69 @@
+
+.per .son{
+   transition: 0.3s;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(185, 95, 95, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background-color: white;
+    position: relative;
+    top: -60px;
+    padding: 68px 32px;
+    margin-bottom: 60px;
+}
+.per .son .icon1, .per .son2 .icon11 {
+    height: 91px;
+    width: 107px;
+    line-height: 91px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: 33%;
+}
+.per .son .icon2,.per .son .icon22{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius:50%;
+    position: absolute;
+    left: 43%;
+    bottom: -4%;
+ }
+.per .son .icon1{
+    background-color: white;
+    color: #168c9f;
+}
+.per .son2 .icon11{
+    color: white; 
+    background-color: #168c9f;
+}
+.per .son .icon2{
+    background-color: white; 
+    color: #168c9f;
+ }
+.per .son .icon22{
+    color: white; 
+    background-color: #168c9f;
+}
+.per .son1{
+    background-color:#168c9f ;
+    color: white;
+}
+.per .son h4 {
+    margin-bottom: 16px;
+}
+
+.per .son2:hover{
+  background-color: #168c9f;  
+  color: white;
+}
+.per .son2:hover .icon11{
+    background-color: white; 
+    color: #168c9f;
+  }
+  .per .son2:hover .icon22{
+    background-color: white; 
+    color: #168c9f;
+    left: 38%;
+    transition: 0.3s;
+  }
+
+

@@ -1,0 +1,58 @@
+
+.Hoverla {
+    margin-bottom: 94px;
+}
+.heeeed {    margin-top: 134px;margin-bottom: 58px;text-align: center;}
+
+.creati{
+}
+.creati img {
+    height: 100%;
+    width: 100%;
+}
+
+.creati{
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 263px!important;
+}
+
+.creati .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 4px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.4);
+    font-size: 15px;
+    opacity: 0;
+}
+.creati:hover .overlay{opacity: 1;transition: 0.4s;}
+
+.creati .overlay .cent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: center;
+}
+.creati .overlay h6 {font-size: 14px;color: #17a2b8;}
+
+.creati .overlay h3 {
+    font-size: 23px;
+}
+
+.creati .overlay .icoon {display: flex;margin-left: 48px;margin-top: 21px;}
+
+.creati .overlay .icoon p {
+    background-color: #17a2b8;
+    width: 40px;
+    height: 39px;
+    line-height: 40px;
+    text-align: center;
+}
+.creati .overlay .icoon p:last-child{ margin-left: 6px;}

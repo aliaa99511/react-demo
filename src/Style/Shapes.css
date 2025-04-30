@@ -1,0 +1,50 @@
+
+.bacck {margin-top: 181px;}
+
+.bacck .aall {
+    background-color: #17a2b8b0;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 93px;
+    padding: 85px;
+
+}
+
+.bacck .myimg {
+    position: absolute;
+    z-index: 2;
+    top: 19%;
+    left: 9%;
+}
+
+.bacck .aall h1 {
+     text-align: center;
+     margin-bottom: 108px;
+}
+
+.bacck .aall h6 {
+    text-align: center;
+    color: #17a2b8;
+}
+
+.bacck .medi {
+    display: flex;
+    margin-top: 43px;
+}
+
+.bacck .medi h3 {font-size: 21px;}
+
+.bacck .medi p {font-size: 15px;}
+
+.bacck .medi .icoonn {
+    width: 95px;
+    height: 73px;
+    line-height: 83px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #17a2b8;
+    font-size: 14px;
+
+}

@@ -1,0 +1,76 @@
+
+.fluidd .container-fluid{padding-right: 0;padding-left: 0;}
+
+.fluidd .ffirs {
+    background-color: #8080802e;
+    text-align: center;
+    padding: 116px 0;
+}
+
+.fluidd .ffirs h6 {color: #17a2b8;font-size: 20px;}
+
+.fluidd .ffirs h1 {
+    margin-top: 16px;
+    font-size: 40px;
+}
+.fluidd .col{
+    padding-right: 0;
+    padding-left: 0;
+}
+.seco{
+    position: relative;
+}
+.seco .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.3);
+    font-size: 15px;
+    color: white;
+    opacity: 0;
+}
+
+.seco1,.seco2,.high{
+    width: 100%!important;
+    height: 600px!important;
+}
+.seco3,.seco4,.low{
+    width: 100%!important;
+    height: 300px!important;
+}
+
+.seco:hover .overlay{opacity: 1;transition: 0.4s;}
+
+.seco .overlay .myflexx {
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    text-align: center;
+}
+.seco .overlay .conten h5 {
+    color: #dc3545;
+    font-size: 28px;
+}
+.seco1 .overlay .conten h1, .seco2 .overlay .conten h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.seco3 .overlay .conten h1 ,.seco4 .overlay .conten h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.seco1 .overlay .conten p,.seco2 .overlay .conten p {
+    font-size: 15px;
+}
+.seco3 .overlay .conten p, .seco4 .overlay .conten p {
+    font-size: 13px;
+}
+.seco .overlay .conten .bott {
+    padding: 11px;
+    font-size: 20px;
+    margin-top: 22px;
+}

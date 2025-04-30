@@ -1,0 +1,48 @@
+
+.peeera {
+    padding-bottom: 179px;
+    margin-bottom: -42px;
+    margin-top: 202px;
+}
+
+.peeera .first, .peeera .second {display: contents;}
+
+.peeera .first{margin-top: 61px;}
+
+.peeera img{
+    height: 231px;
+}
+.peeera .col{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.peeera .item{
+    background-color: #8080802b;
+    height: 231px;
+    padding: 27px;
+}
+
+.peeera .item .toop {
+    background-color: #168c9f;
+    padding: 3px;
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 29px;
+    color: white;
+}
+.peeera .item p {font-weight: 600; margin-bottom: 5px;}
+
+.peeera .item small {color: gray;}
+
+.peeera .item h5 {
+    font-size: 16px;
+    margin-top: 25px;
+    border-bottom: 3px solid #168c9f;
+    margin-right: auto;
+    width: 90px;
+}

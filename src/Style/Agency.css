@@ -1,0 +1,44 @@
+
+
+.agen {
+    margin-bottom: 160px;
+}
+.agent .iner{overflow: hidden;}
+
+.agen h6 {
+    color: #168c9f ;
+    margin-top: 36px;
+}
+.agen h1 {
+    margin-bottom: 52px;
+}
+.agent {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.agent .iner img {
+    transition: all 1.5s ease;
+}
+.agent .overlay {
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 3%;
+}
+
+.agent .overlay .propr{display: flex;}
+
+.agent .overlay h5 {background-color: white;border-radius: 5px;padding: 7px;font-size: 19px;}
+
+.agent .overlay .propr p:last-child {}
+
+.agent .overlay .propr p {background-color: white;padding: 4px;border-radius: 5px;margin-right: 9px;}
+
+.agent .overlay  .propr p:first-child{}
+
+.agent:hover h5{background-color: green;color: white;transition: all 1.5s ease;cursor: pointer;}
+
+.agent:hover img{transform: scale(1.2);}
+

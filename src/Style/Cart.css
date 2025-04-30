@@ -1,0 +1,46 @@
+.shoop .title{
+    display: flex;
+}
+.shoop .title h5{
+
+}
+.shoop .title .item {
+    display: flex;
+    margin-left: auto;
+}
+.shoop .title p {
+    margin-left: 206px;
+}
+
+.shoop{
+
+}
+.shoop .img {
+    width: 142px;
+    height: 115px;
+    border: 1px solid #80808085;
+}
+
+.shoop .cont {
+    display: flex;
+    margin-left: 33px;
+    margin-top: 38px;
+
+}
+.shoop .cont .last {
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 24px;
+}
+.shoop .one{
+    margin-top: 38px;
+
+}
+.shoop .two {
+    margin-left: 76px;
+    margin-top: 38px;
+
+}
+.shoop .cpar {
+    margin-top: 38px;
+}

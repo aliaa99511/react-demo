@@ -1,0 +1,50 @@
+
+.lef {
+    background-color:  #ff2143;
+    position: relative;
+    height: 618px;
+
+}
+.shadow .col{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.lef,.righ{
+
+}
+.lef img {
+    position: absolute;
+    z-index: 2;
+    left: 22%;
+    top: 16%;
+}
+
+
+
+
+.righ {
+    background-color: black;
+    color: white;
+    padding: 84px;
+    height: 618px;
+}
+.righ h6{
+color:  #ff2143;
+}
+.righ h1 {
+    margin-bottom: 49px;
+    margin-top: 14px;
+}
+.righ .para1 {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.righ .para2 {
+    margin-bottom: 51px;
+}
+.righ .mybtt {
+    font-size: 21px;
+    padding: 11px;
+    border-radius: 0;
+}

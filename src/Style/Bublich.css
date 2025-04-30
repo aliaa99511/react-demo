@@ -1,0 +1,30 @@
+.Bublich {
+    margin-top: 161px;
+}
+.Bublich .one {
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+.Bublich .myrow2 .col{
+    margin-bottom: 50px;
+}
+.Bublich .two {
+
+}
+.Bublich .iten,.Bublich .two {
+
+}
+
+.Bublich .iten h1 {
+    margin-bottom: 34px;
+    font-size: 56px;
+    font-weight: 600;
+}
+.Bublich .iten p {
+    margin-bottom: 32px;
+    font-size: 17px;
+}
+.Bublich .iten h5 {
+    font-size: 20px;
+    font-weight: 600;
+}

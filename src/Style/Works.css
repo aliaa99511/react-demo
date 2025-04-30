@@ -1,0 +1,42 @@
+
+.mrto {
+    margin-bottom: 122px;
+    margin-top: 246px;
+}
+.mrto .col{
+    margin-bottom: 50px!important
+}
+.pparent .onee h2{
+    font-family: 'Kaushan Script', cursive!important;
+    margin-bottom: 24px;
+}
+
+.pparent .onee .soon{
+    display: block;
+}
+
+.pparent .onee .soon span{
+    margin-left: 8px;
+}
+
+.pparent .onee .so{
+    margin-bottom: 7px;
+
+}
+.pparent .twoo .card{
+    margin-bottom: 22px;
+    margin-top: -16px;
+}
+.pparent .twoo .btn-secondary {
+    background-color: #17a2b8!important;
+    border-color: #17a2b8!important;
+    outline: #17a2b8!important;
+}
+.pparent .twoo .btn-secondary:focus {
+    border-color: #17a2b8!important;
+    outline: #17a2b8!important;
+}
+.pparent .twoo .card-body {
+    background-color: #80808017;
+
+}

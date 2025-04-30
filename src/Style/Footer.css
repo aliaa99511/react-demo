@@ -1,0 +1,70 @@
+.footer{
+    background-image: url("/images/write.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 119px;
+
+}
+.footer .opaci{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    padding: 55px 0;
+}
+
+.footer .onne h5{
+    margin-bottom: 18px;
+    margin-left: 10px;
+    font-size: 29px;
+}
+.footer h5{
+    margin-top: 51px;
+
+}
+.footer .twwo h5{
+    margin-bottom: 18px;
+    font-size: 29px;
+}
+
+.footer .thhree .llinks{
+    margin-top: 38px;
+
+}
+
+.footer .thhree .llinks i:hover{
+color: #adb5bd;
+}
+
+.footer .thhree h5{
+    margin-bottom: 18px;
+    font-size: 29px;
+    margin-top: -20px;
+}
+.footer .twwo address,.footer .thhree p{
+    color: #adb5bd;
+
+
+}
+.footer .ul-list .list-item a {
+    padding: 10px 15px;
+    display: block;
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+.footer .ul-list .list-item a:hover{
+    color: white;
+}
+
+.footer .thhree .btn {
+    color: white!important;
+}
+
+.footer .copy{
+    color: #adb5bd;
+}
+
+
+

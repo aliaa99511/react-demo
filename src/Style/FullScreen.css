@@ -1,0 +1,25 @@
+
+.fullscreen{
+    background-image: url("/images/tower2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fullscreen .cen{
+    text-align: center;
+}
+
+.fullscreen .cen h1{
+    font-size: 63px;
+    margin-bottom: 36px;
+}
+
+.fullscreen .cen .btn {
+    font-size: 22px;
+}

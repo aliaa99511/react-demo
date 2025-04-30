@@ -1,0 +1,65 @@
+
+
+.boorder {
+    margin-bottom: 184px;
+}
+.boorder h1 {
+    margin-top: 150px;
+    margin-bottom: 42px;
+}
+
+.boorder .namee h5 {
+    color: #168c9f;
+    margin-top: 22px;
+    font-size: 25px;
+}
+.boorder .socialme div{
+    background-color: #168c9f;  
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.boorder .socialme{
+    display:flex;
+
+    
+}
+.boorder .crea .overlay .socialme{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: center;
+}
+.boorder .crea img{
+    border-top-left-radius: 39px ;
+    border-top-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+}
+
+.boorder .crea{position: relative;margin-top: 45px;}
+
+.boorder .crea .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.4);
+    border-top-left-radius: 39px ;
+    border-top-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+    opacity: 0;
+}
+.boorder .crea:hover .overlay{opacity: 1;transition: 0.4s; cursor: pointer;}
+
