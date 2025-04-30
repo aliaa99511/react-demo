@@ -35,7 +35,7 @@ const Hoverlay = () => {
   );
 
   return (
-    <div className="Hoverla">
+    <div className="Hoverla py-5">
       <h1 className="heeeed">Featured Works</h1>
       <Container>
         <Row>

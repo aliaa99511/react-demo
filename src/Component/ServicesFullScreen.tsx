@@ -1,9 +1,9 @@
-import '../Style/FullScreen5.css'
+import '../Style/ServicesFullScreen.css'
 import {Link} from "react-router-dom";
 
-const FullScreen5 = () => {
+const ServicesFullScreen = () => {
         return (
-            <div className="fullscreen5">
+            <div className="services-fullScreen">
                 <div className="sson">
                     <div className="os">
                         <h1>Services</h1>
@@ -17,4 +17,4 @@ const FullScreen5 = () => {
         )
 }
 
-export default FullScreen5
+export default ServicesFullScreen

@@ -51,7 +51,7 @@ const Works: React.FC = () => {
   ];
 
   return (
-    <div className="mrto">
+    <div className="mrto py-5">
       <Container>
         <div className="pparent">
           <Row>

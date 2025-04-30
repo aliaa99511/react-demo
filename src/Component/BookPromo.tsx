@@ -1,22 +1,22 @@
-import '../Style/Bublich.css';
+import '../Style/BookPromo.css';
 import { Container, Row, Col } from 'reactstrap';
 
-const Bublich = () => {
+const BookPromoSection = () => {
   return (
-    <div className="Bublich">
+    <div className="book-section">
       <Container>
-        <Row className="myrow1">
-          <Col><img src="images/partner-1.png" className="one img-fluid" alt="partner 1"/></Col>
-          <Col><img src="images/partner-2.png" className="one img-fluid" alt="partner 2"/></Col>
-          <Col><img src="images/partner-3.png" className="one img-fluid" alt="partner 3"/></Col>
-          <Col><img src="images/partner-4.png" className="one img-fluid" alt="partner 4"/></Col>
+        <Row className="partners-row">
+          <Col><img src="images/partner-1.png" className="partner-logo img-fluid" alt="partner 1"/></Col>
+          <Col><img src="images/partner-2.png" className="partner-logo img-fluid" alt="partner 2"/></Col>
+          <Col><img src="images/partner-3.png" className="partner-logo img-fluid" alt="partner 3"/></Col>
+          <Col><img src="images/partner-4.png" className="partner-logo img-fluid" alt="partner 4"/></Col>
         </Row>
-        <Row className="myrow2">
+        <Row className="book-content-row">
           <Col>
-            <img src="images/hhhhh.jpg" className="two img-fluid" alt="book illustration"/>
+            <img src="images/hhhhh.jpg" className="book-cover img-fluid" alt="book illustration"/>
           </Col>
           <Col>
-            <div className="iten">
+            <div className="book-description">
               <h1>About The Book</h1>
               <p className="text-muted">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
               <h5>Award achievements</h5>
@@ -33,4 +33,4 @@ const Bublich = () => {
   );
 };
 
-export default Bublich;
+export default BookPromoSection;

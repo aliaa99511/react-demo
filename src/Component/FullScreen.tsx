@@ -1,7 +1,7 @@
-import '../Style/FullScreen.css'
+import '../Style/HomeFullScreen.css'
 import { Button } from 'reactstrap';
 
-const FullScreen = () => {
+const HomeFullScreen = () => {
     return (
         <div>
             <div className="fullscreen">
@@ -15,4 +15,4 @@ const FullScreen = () => {
     )
 }
 
-export default FullScreen
+export default HomeFullScreen

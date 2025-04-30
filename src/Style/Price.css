@@ -8,9 +8,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(350px,1fr));
     background-color: #80808014;
-    margin-top: -82px;
-    padding-top: 168px;
-    padding-bottom: 117px;
+    margin-top: -104px;
+    padding-top: 163px;
+    padding-bottom: 90px;
 
 }
 .testimo .card {

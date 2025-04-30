@@ -1,4 +1,4 @@
-.fullscreen4{
+.testimonials-fullScreen{
     background-image: url("/images/full2.jpg");
     background-size: cover;
     width: 100%;
@@ -14,13 +14,13 @@
     justify-content: center;
     align-items: center; 
 }
-.fullscreen4 .os {
+.testimonials-fullScreen .os {
     color: white;
 }
-.fullscreen4 .list { display: flex;margin-left: 36px;}
+.testimonials-fullScreen .list { display: flex;margin-left: 36px;}
 
-.fullscreen4 .list li:first-child a{color: white;}
+.testimonials-fullScreen .list li:first-child a{color: white;}
 
-.fullscreen4 .list li:first-child a:hover{text-decoration: none;}
+.testimonials-fullScreen .list li:first-child a:hover{text-decoration: none;}
 
-.fullscreen4 .list li:last-child {color: gainsboro;}
+.testimonials-fullScreen .list li:last-child {color: gainsboro;}

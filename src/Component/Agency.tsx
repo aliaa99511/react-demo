@@ -34,10 +34,10 @@ const Agency = () => {
   ];
 
   return (
-    <div className="agen py-5">
-      <div className="text-center mb-4">
-        <h6 className="section-subtitle">───── AGENTS ─────</h6>
-        <h2 className="section-title">Our Agents</h2>
+    <div className="agency-section py-4">
+      <div className="agency-header text-center mb-4">
+        <h6 className="agency-subtitle">───── AGENTS ─────</h6>
+        <h2 className="agency-title">Our Agents</h2>
       </div>
 
       <Container>
@@ -52,17 +52,17 @@ const Agency = () => {
               className="mb-4 d-flex justify-content-center"
             >
               <div className="agent-card">
-                <div className="agent-image-container">
+                <div className="agent-card__image-container">
                   <img 
                     src={agent.image} 
-                    className="img-fluid agent-image" 
+                    className="img-fluid agent-card__image" 
                     alt={agent.name} 
                     loading="lazy"
                   />
                 </div>
-                <div className="agent-info">
-                  <h5 className="agent-name">{agent.name}</h5>
-                  <div className="agent-details text-muted">
+                <div className="agent-card__info">
+                  <h5 className="agent-card__name">{agent.name}</h5>
+                  <div className="agent-card__details text-muted">
                     <p className="mb-1">{agent.role}</p>
                     <p>{agent.properties}</p>
                   </div>

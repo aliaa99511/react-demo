@@ -1,4 +1,4 @@
-.fullscreen6{
+.contact-fullScreen{
     background-image: url("/images/full2.jpg");
     background-size: cover;
     width: 100%;
@@ -14,13 +14,13 @@
     justify-content: center;
     align-items: center;
 }
-.fullscreen6 .os {
+.contact-fullScreen .os {
     color: white;
 }
-.fullscreen6 .list {display: flex;margin-left: 10px;}
+.contact-fullScreen .list {display: flex;margin-left: 10px;}
 
-.fullscreen6 .list li:first-child a{color: white;}
+.contact-fullScreen .list li:first-child a{color: white;}
 
-.fullscreen6 .list li:first-child a:hover{text-decoration: none;}
+.contact-fullScreen .list li:first-child a:hover{text-decoration: none;}
 
-.fullscreen6 .list li:last-child {color: gainsboro;}
+.contact-fullScreen .list li:last-child {color: gainsboro;}

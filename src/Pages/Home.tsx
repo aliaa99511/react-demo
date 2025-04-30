@@ -1,10 +1,9 @@
 import Agency from "../Component/Agency"
-import FullScreen from "../Component/FullScreen"
 import Hoverlay from "../Component/Hoverlay"
 import Show from "../Component/Show"
 import Slides from "../Component/Slides"
 import Works from "../Component/Works"
-import Bublich from "../Component/Bublich"
+import BookPromoSection from "../Component/BookPromo"
 import Offer from "../Component/Offer"
 import Delicious from "../Component/Delicious"
 import Carousel from "../Component/Carousel"
@@ -13,20 +12,21 @@ import Storiees from "../Component/Storiees"
 import Recipe from "../Component/Recipe"
 import Courses from "../Component/Courses"
 import Price from "../Component/Price"
-import Boorder from "../Component/Boorder"
 import Build from "../Component/Build"
+import TeamSection from "../Component/TeamSection"
+import HomeFullScreen from "../Component/FullScreen"
 
 const Home = () => {
     return (
         <div>
-            <FullScreen />
+            <HomeFullScreen />
             <Show />
             <Agency />
             <Slides />
             <Works />
             <Hoverlay />
             <Carousel />
-            <Bublich />
+            <BookPromoSection />
             <Offer />
             <Delicious />
             <Food />
@@ -34,7 +34,7 @@ const Home = () => {
             <Recipe />
             <Courses />
             <Price />
-            <Boorder />
+            <TeamSection />
             <Build />
         </div>
     )

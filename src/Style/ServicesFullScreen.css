@@ -1,4 +1,4 @@
-.fullscreen2{
+.services-fullScreen{
     background-image: url("/images/full2.jpg");
     background-size: cover;
     width: 100%;
@@ -13,13 +13,13 @@
     justify-content: center;
     align-items: center;
 }
-.fullscreen2 .os {
+.services-fullScreen .os {
     color: white;
 }
-.fullscreen2 .list {display: flex;margin-left: 10px;}
+.services-fullScreen .list {display: flex;margin-left: 18px;}
 
-.fullscreen2 .list li:first-child a{color: white;}
+.services-fullScreen .list li:first-child a{color: white;}
 
-.fullscreen2 .list li:first-child a:hover{text-decoration: none;}
+.services-fullScreen .list li:first-child a:hover{text-decoration: none;}
 
-.fullscreen2 .list li:last-child {color: gainsboro;}
+.services-fullScreen .list li:last-child {color: gainsboro;}

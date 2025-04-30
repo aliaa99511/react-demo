@@ -1,0 +1,24 @@
+.book-section {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.book-section .partner-logo {
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.book-section .book-content-row .col {
+    margin-bottom: 50px;
+}
+.book-section .book-description h1 {
+    margin-bottom: 34px;
+    font-size: 56px;
+    font-weight: 600;
+}
+.book-section .book-description p {
+    margin-bottom: 32px;
+    font-size: 17px;
+}
+.book-section .book-description h5 {
+    font-size: 20px;
+    font-weight: 600;
+}

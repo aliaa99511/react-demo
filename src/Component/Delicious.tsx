@@ -45,13 +45,13 @@ const Delicious = () => {
     <div className="fluidd">
       <div className="ffirs">
         <Container>
-          <h6>Our Offerd Menu</h6>
-          <h1>Some Trendy And Popular Courses Offerd</h1>
+          <h6>Our Offered Menu</h6>
+          <h1>Some Trendy And Popular Courses Offered</h1>
         </Container>
       </div>
       <Container fluid={true}>
         <Row>
-          {foodItems.map((item, index) => (
+          {foodItems.slice(0, 2).map((item) => (
             <Col key={item.id}>
               <div className={item.className}>
                 <img src={item.image} className={item.imgClass} alt={item.title} />
@@ -70,6 +70,25 @@ const Delicious = () => {
               </div>
             </Col>
           ))}
+          <Col>
+            {foodItems.slice(2).map((item) => (
+              <div key={item.id} className={item.className}>
+                <img src={item.image} className={item.imgClass} alt={item.title} />
+                <div className="overlay">
+                  <div className="myflexx">
+                    <div className="conten">
+                      <h5>{item.price}</h5>
+                      <h1>{item.title}</h1>
+                      <p>{item.description}</p>
+                      <div>
+                        <Button color="danger" className="bott">Order Now</Button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Col>
         </Row>
       </Container>
     </div>

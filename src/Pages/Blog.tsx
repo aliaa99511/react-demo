@@ -1,19 +1,19 @@
-import Boorder from "../Component/Boorder";
+import BlogFullScreen from "../Component/BlogFullScreen";
 import Courses from "../Component/Courses";
 import Delicious from "../Component/Delicious";
-import FullScreen3 from "../Component/FullScreen3";
 import Recipe from "../Component/Recipe";
 import Storiees from "../Component/Storiees";
+import TeamSection from "../Component/TeamSection";
 
 const Blog = () => {
   return (
     <div>
-      <FullScreen3 />
+      <BlogFullScreen />
       <Delicious />
       <Storiees />
       <Recipe />
       <Courses />
-      <Boorder />
+      <TeamSection />
     </div>
   );
 };

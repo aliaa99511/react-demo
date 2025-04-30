@@ -1,15 +1,15 @@
 import Agency from "../Component/Agency"
-import Bublich from "../Component/Bublich"
+import BookPromoSection from "../Component/BookPromo"
 import Build from "../Component/Build"
-import FullScreen4 from "../Component/FullScreen4"
+import TestimonialsFullScreen from "../Component/TestimonialsFullScreen"
 
 const Testimonials = () => {
     return (
         <div>
-            <FullScreen4 />
+            <TestimonialsFullScreen />
             <Build />
             <Agency />
-            <Bublich />
+            <BookPromoSection />
         </div>
     )
 }

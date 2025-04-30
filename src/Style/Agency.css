@@ -1,44 +1,58 @@
-
-
-.agen {
-    margin-bottom: 160px;
-}
-.agent .iner{overflow: hidden;}
-
-.agen h6 {
-    color: #168c9f ;
-    margin-top: 36px;
-}
-.agen h1 {
+.agency-header {
     margin-bottom: 52px;
 }
-.agent {
+
+.agency-subtitle {
+    color: #168c9f;
+    margin-top: 36px;
+}
+
+.agent-card {
     position: relative;
     z-index: 1;
     margin-bottom: 30px;
+    width: 100%;
 }
-.agent .iner img {
+
+.agent-card__image-container {
+    overflow: hidden;
+}
+
+.agent-card__image {
     transition: all 1.5s ease;
 }
-.agent .overlay {
+
+.agent-card__info {
     padding: 15px;
-    position: absolute;
+    position: relative;
     z-index: 2;
-    bottom: 0;
-    left: 3%;
 }
 
-.agent .overlay .propr{display: flex;}
+.agent-card__details {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.agent .overlay h5 {background-color: white;border-radius: 5px;padding: 7px;font-size: 19px;}
+.agent-card__name {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
 
-.agent .overlay .propr p:last-child {}
+.agent-card__details p {
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 9px;
+}
 
-.agent .overlay .propr p {background-color: white;padding: 4px;border-radius: 5px;margin-right: 9px;}
+.agent-card:hover .agent-card__name {
+    transition: all 1.5s ease;
+    cursor: pointer;
+}
 
-.agent .overlay  .propr p:first-child{}
-
-.agent:hover h5{background-color: green;color: white;transition: all 1.5s ease;cursor: pointer;}
-
-.agent:hover img{transform: scale(1.2);}
-
+.agent-card:hover .agent-card__image {
+    transform: scale(1.2);
+}

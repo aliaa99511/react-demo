@@ -45,7 +45,7 @@ const Offer = () => {
   ];
 
   return (
-    <div className="boox">
+    <div className="boox py-5">
       <h6 className="toto">─────WHAT WE OFFER─────</h6>
       <h1 className="text-center tete">Featured Properties</h1>
       <Container>

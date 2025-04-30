@@ -39,7 +39,7 @@ const Carousel = () => {
     ];
 
     return (
-        <div className="slide-area">
+        <div className="slide-area py-5">
             <Container>
                 <Slider {...settings} className="mysli">
                     {slidesData.map((slide, index) => (
