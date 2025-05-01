@@ -1,18 +1,18 @@
 import BlogFullScreen from "../Component/BlogFullScreen";
-import Courses from "../Component/Courses";
-import Delicious from "../Component/Delicious";
-import Recipe from "../Component/Recipe";
-import Storiees from "../Component/Storiees";
+import CourseSection from "../Component/CourseSection";
+import FoodGallery from "../Component/FoodGallery";
+import RecipeGallery from "../Component/RecipeGallery";
+import DrinkCategories from "../Component/DrinkCategories";
 import TeamSection from "../Component/TeamSection";
 
 const Blog = () => {
   return (
     <div>
       <BlogFullScreen />
-      <Delicious />
-      <Storiees />
-      <Recipe />
-      <Courses />
+      <FoodGallery />
+      <DrinkCategories />
+      <RecipeGallery />
+      <CourseSection />
       <TeamSection />
     </div>
   );

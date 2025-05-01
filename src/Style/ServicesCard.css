@@ -1,0 +1,76 @@
+.services-section .service-card {
+    transition: 0.3s;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(185, 95, 95, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background-color: white;
+    position: relative;
+    top: -60px;
+    padding: 68px 32px;
+ }
+ 
+ .services-section .service-card .icon-container,
+ .services-section .standard-card .icon-container {
+     height: 91px;
+     width: 107px;
+     line-height: 91px;
+     border-radius: 50%;
+     position: absolute;
+     top: -12%;
+     left: 33%;
+ }
+ 
+ .services-section .service-card .action-icon {
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     border-radius:50%;
+     position: absolute;
+     left: 43%;
+     bottom: -4%;
+  }
+ 
+ .services-section .highlighted-card .icon-container {
+     background-color: white;
+     color: #168c9f;
+ }
+ 
+ .services-section .standard-card .icon-container {
+     color: white; 
+     background-color: #168c9f;
+ }
+ 
+ .services-section .highlighted-card .action-icon {
+     background-color: white; 
+     color: #168c9f;
+  }
+ 
+ .services-section .standard-card .action-icon {
+     color: white; 
+     background-color: #168c9f;
+ }
+ 
+ .services-section .highlighted-card {
+     background-color:#168c9f ;
+     color: white;
+ }
+ 
+ .services-section .service-card h4 {
+     margin-bottom: 16px;
+ }
+ 
+ .services-section .standard-card:hover {
+   background-color: #168c9f;  
+   color: white;
+ }
+ 
+ .services-section .standard-card:hover .icon-container {
+     background-color: white; 
+     color: #168c9f;
+ }
+ 
+ .services-section .standard-card:hover .action-icon {
+     background-color: white; 
+     color: #168c9f;
+     left: 38%;
+     transition: 0.3s;
+ }

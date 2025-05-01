@@ -1,0 +1,98 @@
+.pricing-section {
+    text-align: center;
+    margin-top: 106px;
+}
+
+.pricing-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    background-color: #80808014;
+    margin-top: -104px;
+    padding-top: 163px;
+    padding-bottom: 90px;
+}
+
+.pricing-card {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 73px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #80808070;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.pricing-card-content {
+    position: relative;
+    z-index: 2;
+}
+
+.pricing-card-hover-layer {
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #168c9f;
+    height: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+.pricing-card:hover .pricing-card-hover-layer {
+    top: 0;
+}
+
+.plan-title {
+    color: #6c757d;
+}
+
+.pricing-card:hover .plan-title {
+    color: white;
+}
+
+.plan-features {
+    color: #6c757d;
+}
+
+.pricing-card:hover .plan-features {
+    color: white;
+}
+
+.purchase-button {
+    margin-top: 30px;
+}
+
+.pricing-card:hover .purchase-button {
+    color: white;
+}
+
+.pricing-card:hover .btn-outline-info {
+    color: white;
+}
+
+.pricing-card:hover .price-circle {
+    border: 2px solid;
+    color: white;
+}
+
+.price-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #168c9f;
+    border-radius: 50%;
+    margin-left: 48px;
+    margin-bottom: 31px;
+    margin-top: 29px;
+}
+
+.price-amount {
+    font-size: 45px;
+    padding-top: 12px;
+}
+
+.price-period {
+    font-size: 14px;
+}

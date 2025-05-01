@@ -1,0 +1,55 @@
+.experience-content h5 {
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.experience-content h1 {
+    font-weight: 700;
+    margin-bottom: 52px;
+    font-size: 42px;
+}
+.experience-content p {
+    font-size: 20px;
+    margin-bottom: 38px;
+}
+.experience-content .about-us-button {
+    padding: 12px;
+    padding-left: 27px;
+    padding-right: 36px;
+    font-size: 19px;
+}
+.experience-image-container {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+    left: 13%;
+}
+.experience-image-container .circle-pattern {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    right: -6%;
+    top: 16%;
+}
+.experience-image-container .building-image {
+    position: absolute;
+    z-index: 3;
+    height: 454px;
+    bottom: 12%;
+    right: 11%;
+}
+
+.experience-image-container .circle-pattern i {
+    margin-left: 15px;
+}
+.experience-image-container .circle-pattern p {
+    color: #ff000082;
+    font-size: 5px;
+    padding-top: 8px;
+    margin-bottom: -1px;
+}
+.experience-image-container .circle-pattern p:last-child {
+    margin-bottom: 5px;
+}

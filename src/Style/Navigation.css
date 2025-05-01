@@ -1,0 +1,35 @@
+.main-navbar {
+    background: #fff !important;
+}
+
+.nav-links .nav-link {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin-right: 25px !important;
+    color: black !important;
+}
+
+.nav-links .nav-link:hover {
+    color: #6c757d !important;
+}
+
+.navbar-logo {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+}
+
+/* Additional responsive styles if needed */
+.navbar-toggle {
+    border: none;
+    background: transparent;
+}
+
+@media (max-width: 767px) {
+    .nav-links {
+        padding-top: 15px;
+    }
+    
+    .nav-item {
+        margin-bottom: 10px;
+    }
+}

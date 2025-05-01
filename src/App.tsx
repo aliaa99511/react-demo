@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbarr from './Pages/Navbarr';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Blog from './Pages/Blog';
@@ -9,13 +8,14 @@ import Testimonials from './Pages/Testimonials';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
+import Navigation from './Pages/Navigation';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div>
-          <Navbarr />
+          <Navigation />
 
           <Routes>
             <Route path="/" element={<Home />} />

@@ -1,0 +1,80 @@
+/* Testimonials.css */
+.testimonials-header {
+    background-image: url(/images/bg_4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 361px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.testimonials-header h6 {
+    font-size: 20px;
+}
+
+.testimonials-header h1 {
+    font-size: 48px;
+}
+
+.header-overlay {
+    background-color: #808080c9;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-slider {
+    margin-bottom: 104px;
+    margin-top: -76px;
+}
+
+.testimonial-card {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+    border: 1px solid #80808033;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.quote-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #17a2b8;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-top: -17px;
+}
+
+.testimonial-text {
+    padding: 10px;
+}
+
+.testimonial-author {
+    margin-left: 10px;
+}
+
+.author-name {
+    font-size: 20px;
+}
+
+.author-role {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.author-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonials-slider button.slick-arrow.slick-prev,
+.testimonials-slider button.slick-arrow.slick-next {
+    opacity: 0;
+}

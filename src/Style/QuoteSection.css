@@ -1,0 +1,20 @@
+.quote-section {
+    background-color: #80808014;
+}
+
+.quote-section .quote-content {
+    margin-bottom: 84px;
+    padding-top: 67px;
+    padding-bottom: 98px;
+}
+
+.quote-content .quote-box {
+    background-color: #ccf0e130;
+    border-left: 8px solid #d0cec5;
+    font-size: 18px;
+    padding: 18px;
+    margin-top: 28px;
+    width: 1148px;
+}
+
+/* Commented out styles removed for clarity */

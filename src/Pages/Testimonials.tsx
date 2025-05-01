@@ -1,6 +1,6 @@
 import Agency from "../Component/Agency"
 import BookPromoSection from "../Component/BookPromo"
-import Build from "../Component/Build"
+import Build from "../Component/ExperienceSection"
 import TestimonialsFullScreen from "../Component/TestimonialsFullScreen"
 
 const Testimonials = () => {

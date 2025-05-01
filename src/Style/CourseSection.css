@@ -1,0 +1,58 @@
+.course-section .course-card {
+    margin-bottom: 30px !important;
+}
+
+.course-section__subtitle {
+    color: #168c9f;
+    text-align: center;
+    margin-top: 181px;
+    margin-bottom: 14px;
+}
+
+.course-section__title {
+    text-align: center;
+    font-size: 53px;
+    font-weight: 500;
+    margin-bottom: 77px;
+}
+
+.course-card__title {
+    color: #065ab4;
+    font-size: 30px;
+    margin-bottom: 36px;
+    margin-top: 19px;
+}
+
+.course-card__rating {
+    display: flex;
+}
+
+.course-card__meta {
+    display: flex;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+
+.course-card__meta .course-card__students {
+    margin-right: 15px;
+}
+
+.course-card__rating p,
+.course-card__meta .course-card__price {
+    margin-left: auto;
+}
+
+.course-card__meta i {
+    margin-right: 4px;
+}
+
+.course-card__stars {
+    color: #FFD700;
+}
+
+.course-section__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}

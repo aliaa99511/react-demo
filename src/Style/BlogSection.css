@@ -1,0 +1,50 @@
+.blog-subtitle {
+    color: #17a2b8;
+    margin-top: 118px;
+    margin-bottom: 19px;
+}
+
+.blog-title {
+    margin-bottom: 83px;
+    font-size: 56px;
+}
+
+.blog-card .blog-image {
+    border-radius: 5px;
+}
+
+.blog-card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.blog-card .blog-content {
+    position: absolute;
+    z-index: 2;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 26px;
+    left: 11%;
+    top: 84%;
+}
+
+.blog-card .blog-content:hover {
+    transition: 0.5s;
+    background-color: #17a2b8;
+    cursor: pointer;
+    color: white;
+}
+
+.blog-card .blog-content:hover small {
+    color: white;
+}
+
+.blog-card .blog-content small {
+    color: #6c757d;
+    transition: 0.5s;
+}
+
+.blog-card .blog-content h5 {
+    margin-top: 8px;
+}

@@ -1,0 +1,48 @@
+.services-banner .col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.services-image-container {
+    background-color: #ff2143;
+    position: relative;
+    height: 618px;
+}
+
+.services-image {
+    position: absolute;
+    z-index: 2;
+    left: 22%;
+    top: 16%;
+}
+
+.services-content {
+    background-color: black;
+    color: white;
+    padding: 84px;
+    height: 618px;
+}
+
+.services-subtitle {
+    color: #ff2143;
+}
+
+.services-title {
+    margin-bottom: 49px;
+    margin-top: 14px;
+}
+
+.services-description-main {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.services-description {
+    margin-bottom: 51px;
+}
+
+.services-button {
+    font-size: 21px;
+    padding: 11px;
+    border-radius: 0;
+}

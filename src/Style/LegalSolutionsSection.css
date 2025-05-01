@@ -1,0 +1,40 @@
+.legal-solutions-section .col {
+    margin-bottom: 50px !important;
+}
+
+.legal-solutions-content .legal-solutions-description h2 {
+    font-family: 'Kaushan Script', cursive !important;
+    margin-bottom: 24px;
+}
+
+.legal-solutions-content .legal-solutions-description .feature-list {
+    display: block;
+}
+
+.legal-solutions-content .legal-solutions-description .feature-list span {
+    margin-left: 8px;
+}
+
+.legal-solutions-content .legal-solutions-description .feature-item {
+    margin-bottom: 7px;
+}
+
+.legal-solutions-content .legal-solutions-accordion .card {
+    margin-bottom: 22px;
+    margin-top: -16px;
+}
+
+.legal-solutions-content .legal-solutions-accordion .btn-secondary {
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    outline: #17a2b8 !important;
+}
+
+.legal-solutions-content .legal-solutions-accordion .btn-secondary:focus {
+    border-color: #17a2b8 !important;
+    outline: #17a2b8 !important;
+}
+
+.legal-solutions-content .legal-solutions-accordion .card-body {
+    background-color: #80808017;
+}
